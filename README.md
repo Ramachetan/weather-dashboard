@@ -2,6 +2,8 @@
 
 This is a simple weather application that allows users to fetch current weather data for a specific city.
 
+![App Screenshot](url-to-screenshot)
+
 ## Features
 
 - Fetch current weather data for any city
