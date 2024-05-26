@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <img src="https://images.miraclesoft.com/miracle-logo-white.svg" alt="Miracle Software Systems Logo" class="logo">
+        <h2 class="title">Weather 🌞</h2>
+        <form id="weatherForm">
+            <input type="text" id="cityInput" placeholder="Enter city name or zip code" required>
+            <button type="submit" title="Search"><i class="fas fa-search"></i></button>
+            <button type="button" id="currentLocation" title="Current Location"><i class="fas fa-map-marker-alt"></i></button>
+        </form>
+        <div id="weatherResult"></div>
+        <div class="options">
+            <div class="switch-container">
+                <span>°C</span>
+                <label class="switch">
+                    <input type="checkbox" id="unitSwitch">
+                    <span class="slider round"></span>
+                </label>
+                <span>°F</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

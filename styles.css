@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 70px;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.container {
+    background: rgba(13, 65, 107, 1.0);
+    color: whitesmoke;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherResult {
+    margin-top: 20px;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    
+}
+
+.options {
+    display: none;
+    justify-content: center;
+    align-items: center#fff
+}
+
+.switch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00aae7;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #00aae7;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #00aae7;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.temperature {
+    font-size: 48px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.location {
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.info{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-top: auto;
+
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
