@@ -2,7 +2,9 @@
 
 This is a simple weather application that allows users to fetch current weather data for a specific city.
 
-![App Screenshot](url-to-screenshot)
+![image](https://github.com/Ramachetan/weather-dashboard/assets/24260211/659275df-fc41-4e38-8e92-1b1bf48fe76b)
+
+![image](https://github.com/Ramachetan/weather-dashboard/assets/24260211/74911c0d-592d-494a-92d7-0c07e1b8e6dc)
 
 ## Features
 
