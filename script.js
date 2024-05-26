@@ -20,8 +20,7 @@ document.getElementById('currentLocation').addEventListener('click', function() 
 });
 
 function fetchWeather(city) {
-    const apiKey = '5135de6064804ebc87f172405230605';
-    // const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+    
     const url = 'https://c4b94c14171e48f89f0347d2ae5c09bf.api.mockbin.io/'
 
     fetch(url)
